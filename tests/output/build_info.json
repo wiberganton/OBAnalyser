@@ -1,0 +1,1160 @@
+{
+    "layers": [
+        {
+            "layer_index": 0,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.44447000000166,
+                    "energy": 13186.683149987814,
+                    "nmb_spots": 39698,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 1,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.9182700000017,
+                    "energy": 13492.284149987401,
+                    "nmb_spots": 40618,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 2,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 19.612230000001592,
+                    "energy": 12649.888349988538,
+                    "nmb_spots": 38082,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 3,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.830205000001694,
+                    "energy": 13435.482224987478,
+                    "nmb_spots": 40447,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 4,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.76737500000169,
+                    "energy": 13394.956874987533,
+                    "nmb_spots": 40325,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 5,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.135470000001636,
+                    "energy": 12987.378149988082,
+                    "nmb_spots": 39098,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 6,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.952260000001704,
+                    "energy": 13514.207699987372,
+                    "nmb_spots": 40684,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 7,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.18182000000164,
+                    "energy": 13017.273899988042,
+                    "nmb_spots": 39188,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 8,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.732355000001686,
+                    "energy": 13372.368974987563,
+                    "nmb_spots": 40257,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 9,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.827630000001694,
+                    "energy": 13433.82134998748,
+                    "nmb_spots": 40442,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 10,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 13.179365000001054,
+                    "energy": 8500.690424994136,
+                    "nmb_spots": 25591,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 11,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 18.700165000001515,
+                    "energy": 12061.606424989332,
+                    "nmb_spots": 36311,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 12,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 20.582490000001673,
+                    "energy": 13275.706049987693,
+                    "nmb_spots": 39966,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 13,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 22.269115000001815,
+                    "energy": 14363.579174986226,
+                    "nmb_spots": 43241,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        },
+        {
+            "layer_index": 14,
+            "layer_height": 0.1,
+            "recoate_time": 8.5,
+            "files": [
+                {
+                    "nmb_repetitions": 10,
+                    "time": 1.8153833610538446,
+                    "energy": 1543.0758568957683,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.0637897817435699,
+                    "energy": 41.46335813332038,
+                    "nmb_spots": 0,
+                    "line_length": 129557.04672119029
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.05258589320340848,
+                    "energy": 34.18083058221545,
+                    "nmb_spots": 0,
+                    "line_length": 106801.94909612261
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.04330602969692455,
+                    "energy": 28.148919303000994,
+                    "nmb_spots": 0,
+                    "line_length": 87954.54631445372
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.03402616619044074,
+                    "energy": 22.117008023786493,
+                    "nmb_spots": 0,
+                    "line_length": 69107.14353278508
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.02474630268395685,
+                    "energy": 16.085096744571977,
+                    "nmb_spots": 0,
+                    "line_length": 50259.74075111647
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 0.016394425528121443,
+                    "energy": 10.656376593278932,
+                    "nmb_spots": 0,
+                    "line_length": 33297.07824761467
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 23.77961000000194,
+                    "energy": 15337.848449984911,
+                    "nmb_spots": 46174,
+                    "line_length": 0
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 2.8626412523335216,
+                    "energy": 715.6603130833792,
+                    "nmb_spots": 0,
+                    "line_length": 95419854.92221473
+                },
+                {
+                    "nmb_repetitions": 1,
+                    "time": 1.2707683527376912,
+                    "energy": 0.0,
+                    "nmb_spots": 0,
+                    "line_length": 6353841.763688455
+                }
+            ]
+        }
+    ],
+    "start_temp": 800.0
+}

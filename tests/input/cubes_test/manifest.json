@@ -1,0 +1,19 @@
+{
+  "formatVersion": "3.0",
+  "project": {
+    "id": "e5074992-3c32-415d-b044-e75a8e7fc325",
+    "name": "obf3.0",
+    "description": "Converted from BOSS to OBF 3.0",
+    "revision": {
+      "number": 1,
+      "note": ""
+    }
+  },
+  "author": {
+    "email": "convert_boss_to_obf@example.com"
+  },
+  "reference": {
+    "name": "convert-boss-to-obf",
+    "uri": "https://gitlab.com/freemelt/openmelt/obflib-python"
+  }
+}

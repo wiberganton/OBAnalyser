@@ -1,0 +1,22 @@
+{
+  "formatVersion": "3.0",
+  "project": {
+    "id": "689a87d4-eaa7-489a-b568-ca904fca8506",
+    "name": "",
+    "description": "",
+    "revision": {
+      "number": 1,
+      "note": ""
+    }
+  },
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "license": "MIT",
+  "copyright": "Copyright \u00a9 2024 Anton Wiberg",
+  "reference": {
+    "name": "OBPlanner",
+    "uri": "https://github.com/wiberganton/OBPlanner"
+  }
+}

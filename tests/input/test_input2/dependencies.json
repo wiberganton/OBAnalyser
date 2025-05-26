@@ -1,0 +1,15 @@
+{
+  "material": {
+    "name": "titanium",
+    "powderSize": 100
+  },
+  "software": {
+    "freemelt-recoaterservice": {
+      "ge": "0.8.0",
+      "lt": "1.0.0"
+    },
+    "freemelt-chamberservice": {
+      "eq": "1.0.0"
+    }
+  }
+}

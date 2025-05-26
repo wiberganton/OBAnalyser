@@ -1,0 +1,112 @@
+{
+  "startHeat": {
+    "file": "obp/startHeat.obp",
+    "temperatureSensor": "Sensor1",
+    "targetTemperature": 800,
+    "timeout": 3600
+  },
+  "layerDefaults": {
+    "layerFeed": {
+      "buildPistonDistance": -0.07,
+      "powderPistonDistance": 0.15,
+      "recoaterAdvanceSpeed": 100.0,
+      "recoaterRetractSpeed": 100.0,
+      "recoaterDwellTime": 0,
+      "recoaterFullRepeats": 0,
+      "recoaterBuildRepeats": 0,
+      "triggeredStart": true
+    },
+    "spatterSafe": [
+      {
+        "file": "obp/spatterSafe.obp",
+        "repetitions": 1
+      }
+    ],
+    "jumpSafe": [
+      {
+        "file": "obp/jumpSafe.obp",
+        "repetitions": 1
+      }
+    ],
+    "heatBalance": [
+      {
+        "file": "obp/heatBalance.obp",
+        "repetitions": 1
+      }
+    ]
+  },
+  "layers": [
+    {
+      "melt": [
+        {
+          "file": "obp/layer0.obp",
+          "repetitions": 1
+        }
+      ]
+    },
+    {
+      "melt": [
+        {
+          "file": "obp/layer1.obp",
+          "repetitions": 1
+        }
+      ]
+    },
+    {
+      "melt": [
+        {
+          "file": "obp/layer2.obp",
+          "repetitions": 1
+        }
+      ]
+    },
+    {
+      "melt": [
+        {
+          "file": "obp/layer3.obp",
+          "repetitions": 1
+        }
+      ]
+    },
+    {
+      "melt": [
+        {
+          "file": "obp/layer4.obp",
+          "repetitions": 1
+        }
+      ]
+    },
+    {
+      "melt": [
+        {
+          "file": "obp/layer5.obp",
+          "repetitions": 1
+        }
+      ]
+    },
+    {
+      "melt": [
+        {
+          "file": "obp/layer6.obp",
+          "repetitions": 1
+        }
+      ]
+    },
+    {
+      "melt": [
+        {
+          "file": "obp/layer7.obp",
+          "repetitions": 1
+        }
+      ]
+    },
+    {
+      "melt": [
+        {
+          "file": "obp/layer8.obp",
+          "repetitions": 1
+        }
+      ]
+    }
+  ]
+}
