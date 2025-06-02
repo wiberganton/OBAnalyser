@@ -2,7 +2,7 @@
   "startHeat": {
     "file": "",
     "temperatureSensor": "Sensor1",
-    "targetTemperature": 800,
+    "targetTemperature": 600,
     "timeout": 3600
   },
   "layerDefaults": {

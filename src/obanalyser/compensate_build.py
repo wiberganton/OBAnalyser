@@ -22,25 +22,23 @@ def lumped_heat_model_compensation(build_info_path, thermal_mass, obp_path_heati
         new_build = json.load(f)
     for i, layer in enumerate(build.layers):
         layer_temp = heat_model_lumped.layer_temp(layer, start_temp, thermal_mass)[-1][1]
+        print("Layer index: ", i)
         print("layer_temp ", layer_temp)
         print("start_temp ", start_temp)
-        if layer_temp < start_temp:
+        if layer_temp < start_temp-temp_tolerance:
             ii = 0
+            print("1")
             while layer_temp < start_temp-temp_tolerance:
-                #print("1")
-                #print("layer_temp ", layer_temp)
                 #print("start_temp-temp_tolerance ", start_temp-temp_tolerance)
                 layer.files.append(heating_info)
-                print("layer ", layer)
                 layer_temp = heat_model_lumped.layer_temp(layer, start_temp, thermal_mass)[-1][1]
+                print("layer_temp ", layer_temp)
                 ii += 1
             new_build = add_heat_balance(new_build, i, obp_path_heating, ii)
-        elif layer_temp > start_temp:
+        elif layer_temp > start_temp+temp_tolerance:
             ii = 0
+            print("2")
             while layer_temp > start_temp+temp_tolerance:
-                print("2")
-                print("layer_temp ", layer_temp)
-                print("start_temp-temp_tolerance ", start_temp-temp_tolerance)
                 layer.files.append(cooling_info)
                 layer_temp = heat_model_lumped.layer_temp(layer, start_temp, thermal_mass)[-1][1]
                 ii += 1
