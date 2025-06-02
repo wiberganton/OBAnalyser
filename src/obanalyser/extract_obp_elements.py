@@ -7,55 +7,34 @@ import os
 
 from src.config import config
 from src.obanalyser.analyse_obp import fill_zeros_with_last_nonzero
+import src.obanalyser.plotters.plot_csv as plot_csv
 
-def extract_from_build_object(obp_files, out_file, t0=0):
+def extract_multiple_files(obp_files, out_file, t0=0, plot_info=False):
     """
     input:  obp_files is a list with obp files on the form [[(path1_layer1, rep),(path2_layer1, rep)],[(path1_layer2, rep),(path2_layer2, rep)]]
-            out_file is a file path (string) to csv file where the element data should be written
+            if the path = "" a delay of rep seconds is inserted
     """
-    def write_to_csv(data, path, write_header = False, write_data = True, status='a'):
-        print("data[0] ",data[0])
-        print("data[0].keys() ",data[0].keys())
-        with open(path, status, newline='') as csvfile:
-            fieldnames = data[0].keys()  # Automatically get column names from the first dict
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            if write_header:
-                writer.writeheader()   # Write column names
-            if write_data:
-                writer.writerows(data) # Write all rows
-    # Write headers to a new file
-    write_to_csv(
-        [{"x": 0, "y": 0, "spot_size": 0, "power": 0, "time": 0}],
-        out_file,
-        write_header=True,
-        write_data=False,
-        status='w'
-    )
+    element_data = []
     t = t0
     for layer in obp_files:
-        data = get_delay_elements(config.transition_time, t0=t)
-        write_to_csv(data, out_file)
-        t += config.transition_time
-        for file in layer:
-            data = extract_from_obp_file(file[0], start_time = t)
-            repeat = file[1]
-            result = []
-            # Precompute time deltas from the original list
-            time_deltas = [0]  # First element stays at offset 0
-            for i in range(1, len(data)):
-                delta = data[i]["time"] - data[i - 1]["time"]
-                time_deltas.append(delta)
-            # Initialize time to start from
-            current_time = 0
-            for _ in range(repeat):
-                for i, item in enumerate(data):
-                    new_item = copy.deepcopy(item)
-                    new_item["time"] = current_time
-                    result.append(new_item)
-                    if i < len(time_deltas):
-                        current_time += time_deltas[i]
-            write_to_csv(result, out_file)
-            t = result[-1]["time"]
+        for path, rep in layer:
+            if path == "":
+                element_data.extend(get_delay_elements(rep, t0=t))
+                t += rep
+            else:
+                for i in range(rep):
+                    local_data, t_local = extract_from_obp_file(path, start_time=t)
+                    element_data.extend(local_data)
+                    t = t_local
+    with open(out_file, 'w', newline='') as csvfile:
+        fieldnames = element_data[0].keys()  # Automatically get column names from the first dict
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()   # Write column names
+        writer.writerows(element_data) # Write all rows
+    split_csv_files(out_file)
+    if plot_info:
+        plot_csv.plot_xy_path(out_file)
+        plot_csv.plot_power_vs_time(out_file)
 
 
 def extract_from_obp_file(obp_path, start_time = 0):
@@ -71,15 +50,17 @@ def extract_from_obp_file(obp_path, start_time = 0):
         if not isinstance(element, list):
             element = [element]
         for lst_el in element:
-            if isinstance(lst_el, obp.TimedPoints):
+            if isinstance(lst_el, obp.TimedPoints):    
                 dwellTimes = fill_zeros_with_last_nonzero(lst_el.dwellTimes)
+                local_t = t
                 for i, point in enumerate(lst_el.points):
+                    local_t += dwellTimes[i] / 1e9
                     element_data.append({
                         "x": point.x / 1000,
                         "y": point.y / 1000,
                         "spot_size": lst_el.bp.spot_size,
                         "power": lst_el.bp.power,
-                        "time": t + dwellTimes[i] / 1e9
+                        "time": local_t
                     })
                 t += sum(dwellTimes) / 1e9
             elif isinstance(lst_el, obp.Line):
@@ -165,17 +146,48 @@ def split_csv_files(input_csv):
 
     def save_time_spot_size_changes(input_csv, output_csv):
         df = pd.read_csv(input_csv)
-        df_changes = df.loc[(df['spot_size'] != df['spot_size'].shift()) | 
-                            (df['spot_size'] != df['spot_size'].shift(-1))]
-        df_changes[['time', 'spot_size']].to_csv(output_csv, index=False)
+        records = []
+        # Always start with the first row
+        first_row = df.iloc[0]
+        records.append({'time': first_row['time'], 'spot_size': first_row['spot_size']})
+        for i in range(1, len(df)):
+            prev_row = df.iloc[i - 1]
+            curr_row = df.iloc[i]
+            if curr_row['spot_size'] != prev_row['spot_size']:
+                # Add the change point with the previous value
+                records.append({'time': curr_row['time'], 'spot_size': prev_row['spot_size']})
+                # Add the change point with the new value
+                records.append({'time': curr_row['time'], 'spot_size': curr_row['spot_size']})
+        # Add final value explicitly
+        last_row = df.iloc[-1]
+        records.append({'time': last_row['time'], 'spot_size': last_row['spot_size']})
+        # Save to CSV
+        changes_df = pd.DataFrame(records)
+        changes_df.to_csv(output_csv, index=False)
         print(f"Saved: {output_csv}")
 
     def save_time_power_changes(input_csv, output_csv):
         df = pd.read_csv(input_csv)
-        df_changes = df.loc[(df['power'] != df['power'].shift()) | 
-                            (df['power'] != df['power'].shift(-1))]
-        df_changes[['time', 'power']].to_csv(output_csv, index=False)
+        records = []
+        # Always start with the first row
+        first_row = df.iloc[0]
+        records.append({'time': first_row['time'], 'power': first_row['power']})
+        for i in range(1, len(df)):
+            prev_row = df.iloc[i - 1]
+            curr_row = df.iloc[i]
+            if curr_row['power'] != prev_row['power']:
+                # Add the change point with the previous value
+                records.append({'time': curr_row['time'], 'power': prev_row['power']})
+                # Add the change point with the new value
+                records.append({'time': curr_row['time'], 'power': curr_row['power']})
+        # Add final value explicitly
+        last_row = df.iloc[-1]
+        records.append({'time': last_row['time'], 'power': last_row['power']})
+        # Save to CSV
+        changes_df = pd.DataFrame(records)
+        changes_df.to_csv(output_csv, index=False)
         print(f"Saved: {output_csv}")
+        
     base = os.path.splitext(input_csv)[0]
     save_time_xy(input_csv, base + r"_time_xy.csv")
     save_time_spot_size_changes(input_csv, base + r"_time_spot_size.csv")
