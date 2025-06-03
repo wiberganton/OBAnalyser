@@ -1,8 +1,11 @@
 import json
+import copy
+from pathlib import Path
 
 import src.obanalyser.analyse_build as analyse_build
 import src.obanalyser.analyse_obp as analyse_obp
 import src.obanalyser.heat_model_lumped as heat_model_lumped
+import src.obanalyser.plotters.plot_temp as plot_temp
 
 def lumped_heat_model_compensation(build_info_path, thermal_mass, obp_path_heating, obp_path_cooling):
     """
@@ -12,37 +15,37 @@ def lumped_heat_model_compensation(build_info_path, thermal_mass, obp_path_heati
             obp_path_cooling is a string with a link to the file which is used to cool of the build
     return: new_build a json format with compensated heat_balance
     """
-    temp_tolerance = 3
+    # Get correct paths for the new build file
+    base_dir = Path(build_info_path).parent
+    obp_path_heating_rel = str(Path(obp_path_heating).relative_to(base_dir))
+    obp_path_cooling_rel = str(Path(obp_path_cooling).relative_to(base_dir))
+
+    temp_tolerance = 3 # degrees C
     build = analyse_build.analyse_build(build_info_path) #data_classes.BuildInfo
     start_temp = build.start_temp + 273.15 #degrees Kelvin
     heating_info = analyse_obp.analyse_obp_file((obp_path_heating,1)) #data_classes.FileStats
     cooling_info = analyse_obp.analyse_obp_file((obp_path_cooling,1)) #data_classes.FileStats
-    print("heating_info ", heating_info)
     with open(build_info_path) as f:
         new_build = json.load(f)
     for i, layer in enumerate(build.layers):
-        layer_temp = heat_model_lumped.layer_temp(layer, start_temp, thermal_mass)[-1][1]
-        print("Layer index: ", i)
-        print("layer_temp ", layer_temp)
-        print("start_temp ", start_temp)
+        temp = heat_model_lumped.build_temp(build, thermal_mass, up_to_layer=i)
+        layer_temp = temp[-1][1]
         if layer_temp < start_temp-temp_tolerance:
             ii = 0
-            print("1")
             while layer_temp < start_temp-temp_tolerance:
-                #print("start_temp-temp_tolerance ", start_temp-temp_tolerance)
-                layer.files.append(heating_info)
-                layer_temp = heat_model_lumped.layer_temp(layer, start_temp, thermal_mass)[-1][1]
-                print("layer_temp ", layer_temp)
+                build.layers[i].files.append(copy.deepcopy(heating_info))
+                temp = heat_model_lumped.build_temp(build, thermal_mass, up_to_layer=i)
+                layer_temp = temp[-1][1]
                 ii += 1
-            new_build = add_heat_balance(new_build, i, obp_path_heating, ii)
+            new_build = add_heat_balance(new_build, i, obp_path_heating_rel, ii)
         elif layer_temp > start_temp+temp_tolerance:
             ii = 0
-            print("2")
             while layer_temp > start_temp+temp_tolerance:
-                layer.files.append(cooling_info)
-                layer_temp = heat_model_lumped.layer_temp(layer, start_temp, thermal_mass)[-1][1]
+                build.layers[i].files.append(copy.deepcopy(cooling_info))
+                temp = heat_model_lumped.build_temp(build, thermal_mass, up_to_layer=i)
+                layer_temp = temp[-1][1]
                 ii += 1
-            new_build = add_heat_balance(new_build, i, obp_path_cooling, ii)
+            new_build = add_heat_balance(new_build, i, obp_path_cooling_rel, ii)
     return new_build
 
 def add_heat_balance(build, layer_index, file_path, repetitions):
