@@ -20,3 +20,4 @@ venv/
 # Other
 idea/
 tests/test_output/
+**/dummy.txt

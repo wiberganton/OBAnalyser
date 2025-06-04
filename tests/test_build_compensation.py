@@ -2,12 +2,12 @@ import unittest
 import py3mf_slicer
 import json
 
-import src.obanalyser.analyse_build as analyse_build
-import src.obanalyser.analyse_obp as analyse_obp
-import src.obanalyser.get_3mf_data as get_3mf_data
-import src.obanalyser.compensate_build as compensate_build
-import src.obanalyser.heat_model_lumped as heat_model_lumped
-from src.obanalyser.plotters.plot_temp import plot_lump_temp
+import obanalyser.analyse_build as analyse_build
+import obanalyser.analyse_obp as analyse_obp
+import obanalyser.get_3mf_data as get_3mf_data
+import obanalyser.compensate_build as compensate_build
+import obanalyser.heat_model_lumped as heat_model_lumped
+from obanalyser.plotters.plot_temp import plot_lump_temp
 
 
 class TestMain(unittest.TestCase):

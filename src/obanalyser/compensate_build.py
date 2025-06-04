@@ -2,10 +2,10 @@ import json
 import copy
 from pathlib import Path
 
-import src.obanalyser.analyse_build as analyse_build
-import src.obanalyser.analyse_obp as analyse_obp
-import src.obanalyser.heat_model_lumped as heat_model_lumped
-import src.obanalyser.plotters.plot_temp as plot_temp
+import obanalyser.analyse_build as analyse_build
+import obanalyser.analyse_obp as analyse_obp
+import obanalyser.heat_model_lumped as heat_model_lumped
+import obanalyser.plotters.plot_temp as plot_temp
 
 def lumped_heat_model_compensation(build_info_path, thermal_mass, obp_path_heating, obp_path_cooling):
     """

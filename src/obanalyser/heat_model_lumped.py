@@ -1,6 +1,6 @@
 import math
 
-from src.config import config
+from obanalyser.config import config
 
 def predict_losses(T_i, t):
     """

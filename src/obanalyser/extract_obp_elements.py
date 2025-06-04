@@ -5,9 +5,9 @@ import copy
 import pandas as pd
 import os
 
-from src.config import config
-from src.obanalyser.analyse_obp import fill_zeros_with_last_nonzero
-import src.obanalyser.plotters.plot_csv as plot_csv
+from obanalyser.config import config
+from obanalyser.analyse_obp import fill_zeros_with_last_nonzero
+import obanalyser.plotters.plot_csv as plot_csv
 
 def extract_multiple_files(obp_files, out_file, t0=0, plot_info=False):
     """

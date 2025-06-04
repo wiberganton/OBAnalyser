@@ -2,7 +2,7 @@ import json
 import yaml
 import os
 
-from src.config import config
+from obanalyser.config import config
 
 def get_layer_execution_sequence(path):
     """

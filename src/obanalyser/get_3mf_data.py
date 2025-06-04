@@ -3,7 +3,7 @@ import math
 import py3mf_slicer
 import py3mf_slicer.get_items
 
-from src.config import config
+from obanalyser.config import config
 
 def analyse_3mf(model):
     layer_height = py3mf_slicer.get_items.get_layer_height(model)

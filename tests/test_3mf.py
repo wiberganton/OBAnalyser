@@ -2,7 +2,7 @@ import unittest
 import py3mf_slicer.load
 import py3mf_slicer.slice
 
-from src.obanalyser import get_3mf_data
+from obanalyser import get_3mf_data
 
 
 class TestMain(unittest.TestCase):

@@ -1,8 +1,8 @@
 import unittest
 import csv
 
-import src.obanalyser.extract_obp_elements as extract_obp_elements
-import src.obanalyser.plotters.plot_csv as plot_csv
+import obanalyser.extract_obp_elements as extract_obp_elements
+import obanalyser.plotters.plot_csv as plot_csv
 
 class TestMain(unittest.TestCase):
     def test_main(self):

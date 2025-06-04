@@ -3,11 +3,11 @@ import py3mf_slicer.load
 import py3mf_slicer.slice
 import json
 
-from src.obanalyser import get_3mf_data
-import src.obanalyser.analyse_build as analyse_build
-import src.obanalyser.heat_model_lumped as heat_model_lumped
-from src.obanalyser.plotters.plot_temp import plot_lump_temp
-import src.obanalyser.data_classes as data_classes
+from obanalyser import get_3mf_data
+import obanalyser.analyse_build as analyse_build
+import obanalyser.heat_model_lumped as heat_model_lumped
+from obanalyser.plotters.plot_temp import plot_lump_temp
+import obanalyser.data_classes as data_classes
 
 
 class TestMain(unittest.TestCase):

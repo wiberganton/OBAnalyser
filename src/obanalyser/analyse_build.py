@@ -2,9 +2,9 @@ import json
 import yaml
 import os
 
-from src.obanalyser import get_build_order
-from src.obanalyser import analyse_obp
-from src.obanalyser.data_classes import LayerInfo, BuildInfo
+from obanalyser import get_build_order
+from obanalyser import analyse_obp
+from obanalyser.data_classes import LayerInfo, BuildInfo
 
 def analyse_build(build_file_path):
     """

@@ -1,5 +1,5 @@
 import unittest
-import src.obanalyser.analyse_build as analyse_build
+import obanalyser.analyse_build as analyse_build
 
 class TestMain(unittest.TestCase):
     def test_main(self):

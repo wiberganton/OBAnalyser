@@ -1,6 +1,6 @@
 import obplib as obp
 
-from src.obanalyser.data_classes import FileStats
+from obanalyser.data_classes import FileStats
 
 def analyse_obp_files(obp_files):
     data = []
