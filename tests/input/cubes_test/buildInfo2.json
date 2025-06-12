@@ -2,7 +2,7 @@
   "startHeat": {
     "file": "",
     "temperatureSensor": "Sensor1",
-    "targetTemperature": 600,
+    "targetTemperature": 800,
     "timeout": 3600
   },
   "layerDefaults": {
@@ -25,7 +25,7 @@
       "heatBalance": [
         {
           "file": "obp/PostMelt_IdleScan.obp",
-          "repetitions": 1
+          "repetitions": 3
         }
       ]
   },

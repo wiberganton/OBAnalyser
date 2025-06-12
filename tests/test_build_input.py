@@ -4,7 +4,7 @@ import obanalyser.analyse_build as analyse_build
 class TestMain(unittest.TestCase):
     def test_main(self):
         # build info
-        path = r"tests\input\test_input1\buildInfo.json"
+        path = r"tests\input\cubes_test\buildInfo.json"
         build = analyse_build.analyse_build(path)
         build.to_json(r"tests\output\build_info.json")
         

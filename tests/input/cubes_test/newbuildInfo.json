@@ -30,6 +30,12 @@
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
                 }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 29
+                }
             ]
         },
         {
@@ -38,6 +44,12 @@
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
                 }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 40
+                }
             ]
         },
         {
@@ -50,7 +62,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -60,6 +72,12 @@
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
                 }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
+                }
             ]
         },
         {
@@ -72,7 +90,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 40
                 }
             ]
         },
@@ -86,7 +104,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -100,7 +118,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -114,7 +132,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -123,6 +141,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -136,7 +160,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -150,7 +174,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -164,7 +188,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -178,7 +202,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -187,6 +211,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -200,7 +230,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -214,7 +244,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -228,7 +258,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -242,7 +272,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -251,6 +281,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 42
                 }
             ]
         },
@@ -264,7 +300,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -278,7 +314,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -292,7 +328,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -306,7 +342,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -315,6 +351,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 42
                 }
             ]
         },
@@ -328,7 +370,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -342,7 +384,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -356,7 +398,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -370,7 +412,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -384,7 +426,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -393,6 +435,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -406,7 +454,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -420,7 +468,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -434,7 +482,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -448,7 +496,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -457,6 +505,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -470,7 +524,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -484,7 +538,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -498,7 +552,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -512,7 +566,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -526,7 +580,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -535,6 +589,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -548,7 +608,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -562,7 +622,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -576,7 +636,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -590,7 +650,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -599,6 +659,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -612,7 +678,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -626,7 +692,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -640,7 +706,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -654,7 +720,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -668,7 +734,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -678,6 +744,12 @@
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
                 }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
+                }
             ]
         },
         {
@@ -690,7 +762,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -704,7 +776,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -718,7 +790,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -732,7 +804,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -746,7 +818,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -755,6 +827,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -768,7 +846,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -782,7 +860,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -796,7 +874,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -810,7 +888,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -819,6 +897,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -832,7 +916,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -846,7 +930,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -860,7 +944,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -874,7 +958,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -888,7 +972,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -897,6 +981,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -910,7 +1000,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -924,7 +1014,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -938,7 +1028,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -952,7 +1042,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -966,7 +1056,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -975,6 +1065,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -988,7 +1084,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1002,7 +1098,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1016,7 +1112,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -1030,7 +1126,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1044,7 +1140,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1053,6 +1149,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 42
                 }
             ]
         },
@@ -1066,7 +1168,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1080,7 +1182,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1094,7 +1196,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1108,7 +1210,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -1117,6 +1219,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -1130,7 +1238,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1144,7 +1252,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1158,7 +1266,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -1172,7 +1280,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1186,7 +1294,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1195,6 +1303,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -1208,7 +1322,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -1222,7 +1336,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1236,7 +1350,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1250,7 +1364,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         },
@@ -1264,7 +1378,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1273,6 +1387,12 @@
                 {
                     "file": "obp/layer_melt.obp",
                     "repetitions": 1
+                }
+            ],
+            "heatBalance": [
+                {
+                    "file": "obp\\PostMelt_IdleScan.obp",
+                    "repetitions": 41
                 }
             ]
         },
@@ -1286,7 +1406,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 41
                 }
             ]
         },
@@ -1300,7 +1420,7 @@
             "heatBalance": [
                 {
                     "file": "obp\\PostMelt_IdleScan.obp",
-                    "repetitions": 1
+                    "repetitions": 42
                 }
             ]
         }

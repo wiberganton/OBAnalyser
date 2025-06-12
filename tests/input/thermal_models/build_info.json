@@ -1,0 +1,33 @@
+{
+    "layers": [
+        {
+            "layer_index": 0,
+            "layer_height": 0.1,
+            "recoate_time": 0,
+            "files": [
+                {
+                    "nmb_repetitions": 1,
+                    "time": 10,
+                    "energy": 600,
+                    "nmb_spots": 0,
+                    "line_length": 0
+                }
+            ]
+        },
+        {
+            "layer_index": 1,
+            "layer_height": 0.1,
+            "recoate_time": 0,
+            "files": [
+                {
+                    "nmb_repetitions": 1,
+                    "time": 10,
+                    "energy": 600,
+                    "nmb_spots": 0,
+                    "line_length": 0
+                }
+            ]
+        }
+    ],
+    "start_temp": 800.0
+}

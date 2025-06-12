@@ -3,7 +3,7 @@ import math
 class Config:
     def __init__(self):
         # Parameters for build simulation
-        self.transition_time = 8.5 #time [s] for recoter and transition between layers
+        self.transition_time = 7.844617526 #time [s] for recoter and transition between layers
         self.time_step = 50 # ref number for time step [us]
         self.length_step = 500 # ref length step [um]
         # Geometrical build setup
@@ -13,7 +13,7 @@ class Config:
         # Heat parameters
         self.environment_temp_wall = 100 # temp of the wall in the build chamber [C]
         self.environment_temp_piston = 30 # temp of the wall in the build chamber [C]
-        self.radiation_emissivity = 0.8 # emissitivity constant for the radiation
+        self.radiation_emissivity = 0.75 # emissitivity constant for the radiation
         self.thermal_conductivity = 16.0 # W/m·K
         self.conduction_area_lumped = 0.005 # Area of the conductive material (m2)
         self.conduction_length_lumped = 0.05 # Height which the conductivity happens (m)

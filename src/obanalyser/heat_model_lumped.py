@@ -19,7 +19,7 @@ def predict_losses(T_i, t):
     delta_T = T_i - config.environment_temp_piston
     Q_con = config.thermal_conductivity*config.conduction_area_lumped*delta_T/config.conduction_length_lumped
 
-    return Q_rad + Q_con
+    return Q_rad #+ Q_con
 
 def layer_temp(layer_info, start_temp, thermal_masses):
     """
