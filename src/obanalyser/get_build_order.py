@@ -54,7 +54,10 @@ def get_layer_execution_sequence_obf(path):
 
         sequence_per_layer.append(layer_sequence)
 
-    return sequence_per_layer
+        start_heat_full_path = os.path.join(base_dir, data["startHeat"]["file"])
+        start_heat_info = (start_heat_full_path, 1)
+
+    return (sequence_per_layer, start_heat_info)
 
 def get_layer_execution_sequence_boss(yaml_path):
     with open(yaml_path, 'r') as f:
@@ -88,8 +91,10 @@ def get_layer_execution_sequence_boss(yaml_path):
         layer_sequence.append((postheat_file, postheat_reps))
 
         sequence_per_layer.append(layer_sequence)
-
-    return sequence_per_layer
+    
+    start_heat_info = (data["build"]["start_heat"]["file"], 1)
+    
+    return (sequence_per_layer, start_heat_info)
 
 
 def get_other_layer_info(path):

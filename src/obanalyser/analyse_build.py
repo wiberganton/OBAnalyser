@@ -11,7 +11,8 @@ def analyse_build(build_file_path):
     Reads an build_info file from an obf folder or yaml file with build info
     Returns an analyse_data_classes.BuildInfo object with basic information about the build
     """
-    build_sequence = get_build_order.get_layer_execution_sequence(build_file_path)
+    
+    (build_sequence, start_heat_path)= get_build_order.get_layer_execution_sequence(build_file_path)
     layer_info = get_build_order.get_other_layer_info(build_file_path)
     layers = []
     
@@ -37,9 +38,12 @@ def analyse_build(build_file_path):
     else:
         print("Not supported file type in build input")
     
+    start_heat_info = analyse_obp.analyse_obp_files([start_heat_path])
+    
     build_info = BuildInfo(
         start_temp = start_temp,
-        layers = layers
+        layers = layers,
+        start_heat = start_heat_info
     )
     
     return build_info

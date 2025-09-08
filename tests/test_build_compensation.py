@@ -30,20 +30,20 @@ class TestMain(unittest.TestCase):
         
         data = heat_model_lumped.build_temp(build, thermal_mass)
         
-        #print("not compensated data: ")
-        #plot_lump_temp(data)
+        print("not compensated data: ")
+        plot_lump_temp(data)
         
         # build compensation
         obp_path_heating = r"tests/input/cubes_test/obp/heat_compensation.obp"
         obp_path_cooling = r"tests/input/cubes_test/obp/PostMelt_IdleScan.obp"
 
         new_build = compensate_build.lumped_heat_model_compensation(path, thermal_mass, obp_path_heating, obp_path_cooling)
-        #with open(output_path, "w") as json_file:
-        #    json.dump(new_build, json_file, indent=4)
-        #new_build_object = analyse_build.analyse_build(output_path)
-        #data = heat_model_lumped.build_temp(new_build_object, thermal_mass)
-        #print("compensated data: ")
-        #plot_lump_temp(data)
+        with open(output_path, "w") as json_file:
+            json.dump(new_build, json_file, indent=4)
+        new_build_object = analyse_build.analyse_build(output_path)
+        data = heat_model_lumped.build_temp(new_build_object, thermal_mass)
+        print("compensated data: ")
+        plot_lump_temp(data)
 if __name__ == "__main__":
     unittest.main()
 

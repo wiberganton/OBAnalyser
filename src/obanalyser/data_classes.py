@@ -26,6 +26,7 @@ class LayerInfo:
 class BuildInfo:
     layers: List[LayerInfo]
     start_temp: float #degress C
+    start_heat: List[FileStats]
 
     def get_total_duration(self):
         total = 0.0
@@ -53,7 +54,9 @@ class BuildInfo:
             )
             for l in data['layers']
         ]
+        start_heat = [FileStats(**fs) for fs in data['start_heat']]
         return BuildInfo(
             layers=layers,
-            start_temp=data['start_temp']
+            start_temp=data['start_temp'],
+            start_heat=start_heat
         )
