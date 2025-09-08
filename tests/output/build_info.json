@@ -2101,5 +2101,14 @@
             ]
         }
     ],
-    "start_temp": 600.0
+    "start_temp": 600.0,
+    "start_heat": [
+        {
+            "nmb_repetitions": 1,
+            "time": 1.8153833610538446,
+            "energy": 1543.0758568957683,
+            "nmb_spots": 0,
+            "line_length": 6353841.763688455
+        }
+    ]
 }

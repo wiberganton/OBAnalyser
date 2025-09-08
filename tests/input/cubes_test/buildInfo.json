@@ -1,6 +1,6 @@
 {
   "startHeat": {
-    "file": "",
+    "file": "obp/new_preheat.obp",
     "temperatureSensor": "Sensor1",
     "targetTemperature": 600,
     "timeout": 3600
