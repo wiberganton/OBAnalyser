@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "OBPAnalyser"
-version = "0.0.5"
+version = "0.0.6"
 authors = [{ name = "Anton Wiberg", email = "wiberg.anton@gmail.com" }]
 description = "A package for analysation of open beam files (OBP and OBF)."
 readme = "README.md"
