@@ -33,14 +33,15 @@ def rasterize_file(obp_path: str, pixel_um: float=100, close_gap_um: float=100):
 def _bounds_and_pad(elements):
     xs, ys, max_spot = [], [], 0.0
     for el in elements:
-        if el.bp.spot_size < config.melt_spot_size_threshold:
-            if isinstance(el, TimedPoints):
-                for p in el.points:
-                    xs.append(p.x); ys.append(p.y)
-                max_spot = max(max_spot, float(el.bp.spot_size))
-            elif isinstance(el, Line):
-                xs += [el.P1.x, el.P2.x]; ys += [el.P1.y, el.P2.y]
-                max_spot = max(max_spot, float(el.bp.spot_size))
+        if isinstance(el, TimedPoints) or isinstance(el, Line):
+            if el.bp.spot_size < config.melt_spot_size_threshold:
+                if isinstance(el, TimedPoints):
+                    for p in el.points:
+                        xs.append(p.x); ys.append(p.y)
+                    max_spot = max(max_spot, float(el.bp.spot_size))
+                elif isinstance(el, Line):
+                    xs += [el.P1.x, el.P2.x]; ys += [el.P1.y, el.P2.y]
+                    max_spot = max(max_spot, float(el.bp.spot_size))
     if not xs:
         return (0,0,0,0,0)
     minx, maxx = min(xs), max(xs)
@@ -77,22 +78,23 @@ def rasterize_coverage(elements, pixel_um: float, close_gap_um: float | None = N
         return (j, i)
 
     for el in elements:
-        if el.bp.spot_size < config.melt_spot_size_threshold:
-            if isinstance(el, TimedPoints):
-                rad_px = int(np.ceil((el.bp.spot_size / 2.0) / pixel_um))
-                for p in el.points:
-                    j,i = to_px(p)
-                    cv2.circle(img, (j,i), rad_px, 255, thickness=-1, lineType=cv2.LINE_8)
-            elif isinstance(el, Line):
-                thickness_px = max(1, int(round(el.bp.spot_size / pixel_um)))
-                rad_px = max(1, int(np.ceil((el.bp.spot_size / 2.0) / pixel_um)))
-                j1,i1 = to_px(el.P1)
-                j2,i2 = to_px(el.P2)
-                # draw center segment
-                cv2.line(img, (j1,i1), (j2,i2), 255, thickness=thickness_px, lineType=cv2.LINE_8)
-                # round caps at ends (OpenCV lines are flat-capped)
-                cv2.circle(img, (j1,i1), rad_px, 255, thickness=-1, lineType=cv2.LINE_8)
-                cv2.circle(img, (j2,i2), rad_px, 255, thickness=-1, lineType=cv2.LINE_8)
+        if isinstance(el, TimedPoints) or isinstance(el, Line):
+            if el.bp.spot_size < config.melt_spot_size_threshold:
+                if isinstance(el, TimedPoints):
+                    rad_px = int(np.ceil((el.bp.spot_size / 2.0) / pixel_um))
+                    for p in el.points:
+                        j,i = to_px(p)
+                        cv2.circle(img, (j,i), rad_px, 255, thickness=-1, lineType=cv2.LINE_8)
+                elif isinstance(el, Line):
+                    thickness_px = max(1, int(round(el.bp.spot_size / pixel_um)))
+                    rad_px = max(1, int(np.ceil((el.bp.spot_size / 2.0) / pixel_um)))
+                    j1,i1 = to_px(el.P1)
+                    j2,i2 = to_px(el.P2)
+                    # draw center segment
+                    cv2.line(img, (j1,i1), (j2,i2), 255, thickness=thickness_px, lineType=cv2.LINE_8)
+                    # round caps at ends (OpenCV lines are flat-capped)
+                    cv2.circle(img, (j1,i1), rad_px, 255, thickness=-1, lineType=cv2.LINE_8)
+                    cv2.circle(img, (j2,i2), rad_px, 255, thickness=-1, lineType=cv2.LINE_8)
 
     # Optional morphological closing to seal tiny gaps
     if close_gap_um and close_gap_um > 0:
