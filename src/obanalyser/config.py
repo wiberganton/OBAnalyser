@@ -24,5 +24,6 @@ class Config:
         self.powder_material_heat_capacity = 1 # relative heat capacity of the powder compared to bulk properties [-]
         # Parameters for heat simulation
         self.beam_efficiency = 0.95 # Efficiency of the beam
-
+        # Parameters for obp geometry analysis
+        self.melt_spot_size_threshold = 200 # spot size threshold to consider for area calculation [um]
 config = Config()

@@ -60,3 +60,18 @@ class BuildInfo:
             start_temp=data['start_temp'],
             start_heat=start_heat
         )
+
+@dataclass
+class GeometryLayerInfo:
+    layer_index: int
+    melt_area_mm2: float #mm2
+    melt_portion: float #%
+
+@dataclass
+class GeometryInfo:
+    layers: List[GeometryLayerInfo]
+
+    def to_json_file(self, filepath: str, indent: int = 4) -> None:
+        """Write the GeometryInfo object to a JSON file."""
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(asdict(self), f, indent=indent)
