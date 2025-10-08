@@ -75,3 +75,19 @@ class GeometryInfo:
         """Write the GeometryInfo object to a JSON file."""
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(asdict(self), f, indent=indent)
+    @classmethod
+    def from_json_file(cls, filepath: str) -> "GeometryInfo":
+        """Read a GeometryInfo object from a JSON file."""
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        # Accept either {"layers": [...]} or just a list [...]
+        if isinstance(data, dict):
+            layers_data = data.get("layers", [])
+        elif isinstance(data, list):
+            layers_data = data
+        else:
+            raise ValueError("Invalid JSON format: expected object with 'layers' or a list.")
+
+        layers = [GeometryLayerInfo(**item) for item in layers_data]
+        return cls(layers=layers)
