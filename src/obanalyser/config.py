@@ -25,5 +25,6 @@ class Config:
         # Parameters for heat simulation
         self.beam_efficiency = 0.95 # Efficiency of the beam
         # Parameters for obp geometry analysis
-        self.melt_spot_size_threshold = 200 # spot size threshold to consider for area calculation [um]
+        self.melt_spot_size_threshold = 510 # spot size threshold to consider for area calculation [um]
+        self.melt_watt_threshold = 200.0 # min watt threshold to consider for area calculation [W]
 config = Config()

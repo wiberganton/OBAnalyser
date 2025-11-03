@@ -2,503 +2,1703 @@
     "layers": [
         {
             "layer_index": 0,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 1,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 2,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 3,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 4,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 5,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 6,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 7,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 8,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 9,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 10,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 11,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 12,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 13,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 14,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 15,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 16,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 17,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 18,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 19,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 20,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 21,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 22,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 23,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 24,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 25,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 26,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 27,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 28,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 29,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 30,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 31,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 32,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 33,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 34,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 35,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 36,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 37,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 38,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 39,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 40,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 41,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 42,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 43,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 44,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 45,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 46,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 47,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 48,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 49,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 50,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 51,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 52,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 53,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 54,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 55,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 56,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 57,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 58,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 59,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 60,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 61,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 62,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 63,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 64,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 65,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 66,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 67,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 68,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 69,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 70,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 71,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 72,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 73,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 74,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 75,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 76,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 77,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 78,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 79,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 80,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 81,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 82,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 83,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 84,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 85,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 86,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 87,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 88,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 89,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 90,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 91,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 92,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 93,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 94,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 95,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 96,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 97,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 98,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         },
         {
             "layer_index": 99,
-            "melt_area_mm2": 399.4052,
-            "melt_portion": 0.05085384950128565
+            "melt_area_mm2": 399.1312,
+            "melt_portion": 0.05081896273775991,
+            "files": [
+                {
+                    "melt_area_mm2": 0.0,
+                    "total_area_mm2": 6426.336899999999,
+                    "spot_size_um": 1000.0
+                },
+                {
+                    "melt_area_mm2": 399.1312,
+                    "total_area_mm2": 399.1312,
+                    "spot_size_um": 120.0
+                }
+            ]
         }
     ]
 }

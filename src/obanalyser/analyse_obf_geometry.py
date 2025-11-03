@@ -15,11 +15,13 @@ def analyse_obf_geometry(build_json):
     
     for i in range(len(layer_info)):
         #obp_info = analyse_obp.analyse_obp_files(build_sequence[i])
-        total_area = analyse_obp_geometry.analyse_obp_files_area(build_sequence[i])*0.000001 # in mm2
+        melt_area, files = analyse_obp_geometry.analyse_obp_files_area(build_sequence[i]) # in mm2
+        total_area_mm2 = (config.build_plate_diameter/2)**2*math.pi*1000000
         layer_info_object = GeometryLayerInfo(
             layer_index = i,
-            melt_area_mm2 = total_area,
-            melt_portion = total_area/((config.build_plate_diameter/2)**2*math.pi*1000000)
+            melt_area_mm2 = melt_area*0.000001,
+            melt_portion = melt_area*0.000001/total_area_mm2,
+            files= files
         )
         layers.append(layer_info_object)
 

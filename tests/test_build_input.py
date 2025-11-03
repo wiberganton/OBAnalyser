@@ -5,8 +5,10 @@ class TestMain(unittest.TestCase):
     def test_main(self):
         # build info
         path = r"tests\input\cubes_test\buildInfo.json"
+        path2 = r"tests\output\build_info.json"
+       
         build = analyse_build.analyse_build(path)
-        build.to_json(r"tests\output\build_info.json")
+        build.to_json(path2)
         
         #plot_csv_file.plot_csv(out)
         print("test_build_input works")
