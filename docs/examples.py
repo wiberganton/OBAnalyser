@@ -1,8 +1,43 @@
-# Example for exporting build info to JSON
+from pathlib import Path
+
+import cv2
+
 import obanalyser.analyse_build as analyse_build
 import obanalyser.plotters.plot_build_data as plot_build_data
-path = r"tests\input\cubes_test\buildInfo.json"
-build = analyse_build.analyse_build(path)
-build.to_json(r"tests\output\build_info.json")
+from obanalyser.analyse_obf_geometry import analyse_obf_geom
 
-plot_build_data.plot_build_data(build)
+
+def export_build_info_example():
+    """Example for exporting build info to JSON and plotting summary data."""
+    path = r"tests\input\cubes_test\buildInfo.json"
+    build = analyse_build.analyse_build(path)
+    build.to_json(r"tests\output\build_info.json")
+    plot_build_data.plot_build_data(build)
+
+
+def export_obf_layer_image_stack_example():
+    """Example for rasterizing every build layer to a colored image stack."""
+    build_path = r"tests\input\cubes_test\buildInfo.json"
+    output_dir = Path(r"tests\output\layer_image_stack")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    image_stack, origin_xy_um, pixel_um = analyse_obf_geom(
+        build_path,
+        pixel_um=200,
+        close_gap_um=50,
+    )
+
+    print(f"Created {image_stack.shape[0]} layer images")
+    print(f"Image size: {image_stack.shape[2]} x {image_stack.shape[1]} pixels")
+    print(f"Origin in um: {origin_xy_um}")
+    print(f"Pixel size in um: {pixel_um}")
+
+    for layer_index, layer_img in enumerate(image_stack):
+        output_path = output_dir / f"layer_{layer_index:04d}.png"
+        # analyse_obf_geom returns RGB; OpenCV writes BGR.
+        cv2.imwrite(str(output_path), cv2.cvtColor(layer_img, cv2.COLOR_RGB2BGR))
+
+
+if __name__ == "__main__":
+    export_build_info_example()
+    export_obf_layer_image_stack_example()

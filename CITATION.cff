@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "OBAnalyser"
+type: software
+authors:
+  - family-names: "Wiberg"
+    given-names: "Anton"
+    email: "wiberg.anton@gmail.com"
+version: "0.0.11"
+abstract: "A package for analysis of open beam files (OBP and OBF) to extract information about energy input."
+repository-code: "https://github.com/wiberganton/OBAnalyser"
+url: "https://github.com/wiberganton/OBAnalyser"
+license: "MIT"
+keywords:
+  - "electron beam melting"
+  - "additive manufacturing"
+  - "freemelt"
+  - "OBP"
+  - "OBF"
+  - "energy input"
+  - "analysis"
