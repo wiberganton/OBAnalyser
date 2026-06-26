@@ -1,0 +1,9 @@
+-e .
+obplib
+numpy
+opencv-python
+py3mf_slicer
+matplotlib
+scipy
+pandas
+pyyaml

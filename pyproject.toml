@@ -13,6 +13,7 @@ license = { text = "MIT" }
 dependencies = [
     "obplib",
     "numpy",
+    "opencv-python",
     "py3mf_slicer",
     "matplotlib",
     "scipy",
