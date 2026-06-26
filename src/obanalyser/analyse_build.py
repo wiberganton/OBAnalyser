@@ -11,7 +11,7 @@ def analyse_build(build_file_path):
     Reads an build_info file from an obf folder or yaml file with build info
     Returns an analyse_data_classes.BuildInfo object with basic information about the build
     """
-    
+    build_file_path = str(build_file_path)
     (build_sequence, start_heat_path)= get_build_order.get_layer_execution_sequence(build_file_path)
     layer_info = get_build_order.get_other_layer_info(build_file_path)
     layers = []

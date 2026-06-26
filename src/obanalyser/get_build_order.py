@@ -9,6 +9,7 @@ def get_layer_execution_sequence(path):
     Reads an build_info file from an obf folder or yaml file with build info
     Returns the sequense of which obp files should be run
     """
+    path = str(path)
     if path.endswith(".json"):
         return get_layer_execution_sequence_obf(path)
     elif path.endswith((".yaml", ".yml")):
@@ -98,6 +99,7 @@ def get_layer_execution_sequence_boss(yaml_path):
 
 
 def get_other_layer_info(path):
+    path = str(path)
     if path.endswith(".json"):
         return get_other_layer_info_obf(path)
     elif path.endswith((".yaml", ".yml")):
