@@ -68,10 +68,6 @@ The repository includes runnable examples in the `docs` folder:
 - `docs/examples.py`
 - `docs/example_create_image_stack.py`
 
-## Supported inputs
-
-The main build-analysis functions accept either string paths or `Path` objects.
-
 ## Notes
 
 - Spatial raster resolution for image stacks is controlled with `pixel_um`.
