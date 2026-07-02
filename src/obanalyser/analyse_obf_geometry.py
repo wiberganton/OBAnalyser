@@ -207,7 +207,7 @@ def write_image_stack_with_metadata(
         _progress_iter(image_stack, show_progress, desc="Writing image slices")
     ):
         slice_path = output_path / f"{image_prefix}{layer_index:04d}.png"
-        cv2.imwrite(str(slice_path), layer_img)
+        _write_png(slice_path, layer_img)
 
     metadata = {
         "axis": "z",
@@ -354,3 +354,15 @@ def _rgb_stack_to_rgb_value_meaning(
 
 def _rgb_code(color: tuple[int, int, int]) -> str:
     return f"{color[0]},{color[1]},{color[2]}"
+
+
+def _write_png(path: Path, image: np.ndarray):
+    """Write PNG files robustly, including unicode paths on Windows."""
+    encoded_ok, encoded = cv2.imencode(".png", image)
+    if not encoded_ok:
+        raise RuntimeError(f"Failed to encode image data for '{path}'")
+
+    try:
+        encoded.tofile(str(path))
+    except Exception as exc:
+        raise RuntimeError(f"Failed to write image file '{path}'") from exc

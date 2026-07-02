@@ -20,11 +20,29 @@ def analyse_obp_files_area(obp_files_list):
     return area_um2, files
 
 
-def is_melt_scan(average_spot_size: float, average_power: float) -> bool:
-    return (
+def is_melt_scan(
+    average_spot_size: float,
+    average_power: float,
+    average_speed: float = 0.0,
+    average_dwell_time: float = 0.0,
+) -> bool:
+    is_melt_by_spot_and_power = (
         average_spot_size < config.melt_spot_size_threshold
         and average_power > config.melt_watt_threshold
     )
+
+    if not is_melt_by_spot_and_power:
+        return False
+
+    speed_threshold = config.melt_speed_threshold
+    if speed_threshold is not None and average_speed > speed_threshold:
+        return False
+
+    dwell_threshold = config.melt_dwell_time_threshold
+    if dwell_threshold is not None and average_dwell_time < dwell_threshold:
+        return False
+
+    return True
 
 def rasterize_file(obp_path: str, pixel_um: float=100, close_gap_um: float=100):
     """
@@ -35,12 +53,12 @@ def rasterize_file(obp_path: str, pixel_um: float=100, close_gap_um: float=100):
     """
     elements = obp.read_obp(obp_path)
     img, origin, px, averages = rasterize_coverage(elements, pixel_um, close_gap_um)
-    average_spot_size, average_power = averages
+    average_spot_size, average_power, average_speed, average_dwell_time = averages
 
     area = raster_area_um2(img, px)
     img = cv2.bitwise_not(img)
 
-    if is_melt_scan(average_spot_size, average_power):
+    if is_melt_scan(average_spot_size, average_power, average_speed, average_dwell_time):
         area_melt = area
         totalt_area = area
     else:
@@ -103,6 +121,8 @@ def _draw_elements_on_canvas(
 
     spot_sizes = []
     powers = []
+    speeds = []
+    dwell_times = []
 
     for el in elements:
         if not isinstance(el, (TimedPoints, Line)):
@@ -111,7 +131,13 @@ def _draw_elements_on_canvas(
         spot_sizes.append(el.bp.spot_size)
         powers.append(el.bp.power)
 
+        if isinstance(el, Line):
+            speeds.append(float(getattr(el, "Speed", 0.0)))
+            if hasattr(el, "get_segment_duration"):
+                dwell_times.append(float(el.get_segment_duration()))
+
         if isinstance(el, TimedPoints):
+            dwell_times.extend(float(dwell_time) for dwell_time in getattr(el, "dwellTimes", []))
             rad_px = int(np.ceil((el.bp.spot_size / 2.0) / pixel_um))
             for p in el.points:
                 col, row = to_px(p)
@@ -135,7 +161,9 @@ def _draw_elements_on_canvas(
 
     average_spot_size = sum(spot_sizes) / len(spot_sizes) if spot_sizes else 0.0
     average_power = sum(powers) / len(powers) if powers else 0.0
-    return average_spot_size, average_power
+    average_speed = sum(speeds) / len(speeds) if speeds else 0.0
+    average_dwell_time = sum(dwell_times) / len(dwell_times) if dwell_times else 0.0
+    return average_spot_size, average_power, average_speed, average_dwell_time
 
 def rasterize_coverage(elements, pixel_um: float, close_gap_um: float | None = None):
     """
@@ -148,14 +176,14 @@ def rasterize_coverage(elements, pixel_um: float, close_gap_um: float | None = N
     minx, miny, maxx, maxy, max_spot = _bounds_and_pad(elements)
     if max_spot == 0:
         # nothing to draw
-        return np.zeros((1,1), np.uint8), (minx, miny), pixel_um, (0.0, 0.0)
+        return np.zeros((1,1), np.uint8), (minx, miny), pixel_um, (0.0, 0.0, 0.0, 0.0)
 
     pad = max_spot  # pad by one diameter to be safe
     minx -= pad; miny -= pad; maxx += pad; maxy += pad
 
     height_px, width_px = _bounds_to_shape((minx, miny, maxx, maxy), pixel_um)
     img = np.zeros((height_px, width_px), dtype=np.uint8)
-    average_spot_size, average_powers = _draw_elements_on_canvas(img, elements, pixel_um, minx, maxy)
+    averages = _draw_elements_on_canvas(img, elements, pixel_um, minx, maxy)
 
     # Optional morphological closing to seal tiny gaps
     if close_gap_um and close_gap_um > 0:
@@ -165,7 +193,7 @@ def rasterize_coverage(elements, pixel_um: float, close_gap_um: float | None = N
         kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (k,k))
         img = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel, iterations=1)
 
-    return img, (minx, miny), pixel_um, (average_spot_size, average_powers)
+    return img, (minx, miny), pixel_um, averages
 
 
 def rasterize_coverage_to_bounds(
@@ -180,7 +208,7 @@ def rasterize_coverage_to_bounds(
     minx, miny, maxx, maxy = bounds_xyxy
     height_px, width_px = _bounds_to_shape(bounds_xyxy, pixel_um)
     img = np.zeros((height_px, width_px), dtype=np.uint8)
-    average_spot_size, average_power = _draw_elements_on_canvas(img, elements, pixel_um, minx, maxy)
+    averages = _draw_elements_on_canvas(img, elements, pixel_um, minx, maxy)
 
     if close_gap_um and close_gap_um > 0:
         k = max(1, int(round(close_gap_um / pixel_um)))
@@ -189,7 +217,7 @@ def rasterize_coverage_to_bounds(
         kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (k, k))
         img = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel, iterations=1)
 
-    return img, (minx, miny), pixel_um, (average_spot_size, average_power)
+    return img, (minx, miny), pixel_um, averages
 
 def raster_area_um2(img: np.ndarray, pixel_um: float) -> float:
     return float(np.count_nonzero(img)) * (pixel_um ** 2)
